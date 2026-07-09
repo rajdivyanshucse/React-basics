@@ -2,6 +2,7 @@ import ProductBox from "./Components/ProductBox";
 import "./App.css";
 import Count from "./Components/Count";
 import CharCounter from "./Components/CharCounter";
+import HideText from "./Components/HideText";
 function App() {
 
   return (
@@ -12,7 +13,8 @@ function App() {
     <ProductBox/> */}
     {/* <h1>Update Counter</h1>
     <Count/> */}
-    <CharCounter/>
+    {/* <CharCounter/> */}
+    <HideText/>
     </div>
   );
 }

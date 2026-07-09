@@ -1,13 +1,16 @@
 import ProductBox from "./Components/ProductBox";
-import "./app.css";
+import "./App.css";
+import Count from "./Components/Count";
 function App() {
 
   return (
     
-    <div className="App">
-    <h2>BLOCKBUSTER DEAL</h2>
+    <div>
+    {/* <h2>BLOCKBUSTER DEAL</h2>
     <p>SHOP NOW TO GET MAXIMUM DISCOUNT ON YOUR FAVOURITE ITEMS</p>
-    <ProductBox/>
+    <ProductBox/> */}
+    <h1>Update Counter</h1>
+    <Count/>
     </div>
   );
 }

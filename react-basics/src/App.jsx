@@ -1,6 +1,7 @@
 import ProductBox from "./Components/ProductBox";
 import "./App.css";
 import Count from "./Components/Count";
+import CharCounter from "./Components/CharCounter";
 function App() {
 
   return (
@@ -9,8 +10,9 @@ function App() {
     {/* <h2>BLOCKBUSTER DEAL</h2>
     <p>SHOP NOW TO GET MAXIMUM DISCOUNT ON YOUR FAVOURITE ITEMS</p>
     <ProductBox/> */}
-    <h1>Update Counter</h1>
-    <Count/>
+    {/* <h1>Update Counter</h1>
+    <Count/> */}
+    <CharCounter/>
     </div>
   );
 }

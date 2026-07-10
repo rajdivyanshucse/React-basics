@@ -3,6 +3,7 @@ import "./App.css";
 import Count from "./Components/Count";
 import CharCounter from "./Components/CharCounter";
 import HideText from "./Components/HideText";
+import LikeButton from "./Components/LikeButton";
 function App() {
 
   return (
@@ -14,7 +15,8 @@ function App() {
     {/* <h1>Update Counter</h1>
     <Count/> */}
     {/* <CharCounter/> */}
-    <HideText/>
+    {/* <HideText/> */}
+    <LikeButton/>
     </div>
   );
 }
